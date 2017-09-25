@@ -17,7 +17,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 2. You added the ability to select a hero and show the hero's details.
 3. You learned how to use the built-in directives ngIf and ngFor in a component's template.
 
-### Third Lesson 
+### Lesson: Multiple Components
 1. You created a reusable component.
 2. You learned how to make a component accept input.
 3. You learned to declare the required application directives in an NgModule.
@@ -25,14 +25,14 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 5. You learned to bind a parent component to a child component.
 
 
-### Fourth Lesson
+### Lesson: Services
 1. You created a service class that can be shared by many components.
 2. You used the ngOnInit lifecycle hook to get the hero data when the AppComponent activates.
 3. You defined the HeroService as a provider for the AppComponent.
 4. You created mock hero data and imported them into the service.
 5. You designed the service to return a Promise and the component to get the data from the Promise.
 
-
+### Lesson: Routing
 
 ## Development server
 
