@@ -16,6 +16,16 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 1. The Tour of Heroes app displays a list of selectable heroes.
 2. You added the ability to select a hero and show the hero's details.
 3. You learned how to use the built-in directives ngIf and ngFor in a component's template.
+
+### Third Lesson 
+1. You created a reusable component.
+2. You learned how to make a component accept input.
+3. You learned to declare the required application directives in an NgModule.
+4. You listed the directives in the @NgModule decorator's declarations array.
+5. You learned to bind a parent component to a child component.
+
+
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
