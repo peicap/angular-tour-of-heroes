@@ -57,3 +57,9 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 5. You designed the service to return a Promise and the component to get the data from the Promise.
 
 ###  Routing
+1. You added the Angular router to navigate among different components.
+2. You learned how to create router links to represent navigation menu items.
+3. You used router link parameters to navigate to the details of the user-selected hero.
+4. You shared the HeroService among multiple components.
+5. You moved HTML and CSS out of the component file and into their own files.
+6. You added the uppercase pipe to format data.
