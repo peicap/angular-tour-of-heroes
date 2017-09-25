@@ -1,10 +1,17 @@
 import { Injectable } from '@angular/core';
+import { Headers, Http } from '@angular/http'
+
+import 'rxjs/add/operator/toPromise'
 
 import { Hero } from './hero';
-import { HEROES } from './mock-heroes';
 
 @Injectable()
 export class HeroService {
+
+  private heroesUrl = 'api/heroes' // URL to web api
+
+  constructor(private http: Http) { }
+
   getHeroes(): Promise<Hero[]> {
     return Promise.resolve(HEROES);
   }
