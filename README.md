@@ -5,14 +5,14 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Covered lessons
 
-### First Lesson 
+### Lesson: Setup to develop locally
 1. The Tour of Heroes app uses the double curly braces of interpolation (a type of one-way data binding) to display the app title and properties of a Hero object.
 2. You wrote a multi-line template using ES2015's template literals to make the template readable.
 3. You added a two-way data binding to the <input> element using the built-in ngModel directive. This binding both displays the hero's name and allows users to change it.
 4. The ngModel directive propagates changes to every other binding of the hero.name.
 
 
-### Second Lesson 
+### Lesson: Master/Detail
 1. The Tour of Heroes app displays a list of selectable heroes.
 2. You added the ability to select a hero and show the hero's details.
 3. You learned how to use the built-in directives ngIf and ngFor in a component's template.
@@ -23,6 +23,14 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 3. You learned to declare the required application directives in an NgModule.
 4. You listed the directives in the @NgModule decorator's declarations array.
 5. You learned to bind a parent component to a child component.
+
+
+### Fourth Lesson
+1. You created a service class that can be shared by many components.
+2. You used the ngOnInit lifecycle hook to get the hero data when the AppComponent activates.
+3. You defined the HeroService as a provider for the AppComponent.
+4. You created mock hero data and imported them into the service.
+5. You designed the service to return a Promise and the component to get the data from the Promise.
 
 
 
